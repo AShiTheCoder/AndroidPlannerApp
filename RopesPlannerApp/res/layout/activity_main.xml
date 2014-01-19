@@ -18,7 +18,36 @@
             android:layout_height="wrap_content"
             android:text="@string/task_button"
             android:id="@+id/button"
-            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginTop="65dp"/>
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/listView"
+            android:layout_below="@+id/button"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:clickable="false"
+            android:layout_marginTop="170dp"/>
+
+    <AnalogClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/analogClock"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_button"
+            android:id="@+id/button2"
+            android:layout_toRightOf="@+id/analogClock"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+
 </RelativeLayout>
