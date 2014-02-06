@@ -19,7 +19,8 @@
             android:text="@string/task_button"
             android:id="@+id/button"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="65dp"/>
+            android:layout_marginTop="65dp"
+            android:clickable="true"/>
 
     <ListView
             android:layout_width="wrap_content"
@@ -39,7 +40,8 @@
             android:layout_alignParentStart="false"
             android:layout_below="@+id/button"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"/>
+            android:layout_marginTop="0dp"
+            android:clickable="false"/>
 
     <Button
             android:layout_width="wrap_content"

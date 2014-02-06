@@ -4,6 +4,6 @@
     <string name="app_name">LifeMap</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="task_button">New Task</string>
+    <string name="task_button">Task Manager</string>
     <string name="settings_button">Settings</string>
 </resources>
