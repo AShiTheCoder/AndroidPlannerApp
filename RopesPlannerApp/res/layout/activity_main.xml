@@ -50,6 +50,8 @@
             android:id="@+id/button2"
             android:layout_toRightOf="@+id/analogClock"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"/>
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:onClick="sendMessage"/>
 
 </RelativeLayout>

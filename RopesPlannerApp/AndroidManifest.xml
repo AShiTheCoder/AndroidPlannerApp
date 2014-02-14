@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+                android:name="planner.application.DisplayMessageActivity"
+                android:label="@string/title_activity_display_message"
+                android:parentActivityName="planner.application.MainActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="planner.application.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
